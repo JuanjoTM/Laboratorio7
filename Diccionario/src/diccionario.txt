@@ -1,0 +1,6 @@
+1house, 2casa
+3dog, 4perro
+5homework, 6tarea
+7woman, 8mujer
+9yes, 0si
+town, pueblo

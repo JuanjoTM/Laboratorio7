@@ -72,9 +72,9 @@ public class main{
 				String cad= "";
 				for ( int x = 0; x< significado.length; x++){
 					System.out.println(significado[x]);
-					String trac = diccionario.findName(significado[x].toString());
+					String trac = diccionario.findName(significado[x]);
 					System.out.println(trac);
-					if(significado[x].equals("eats")|| significado[x].equals("beans")|| significado[x].equals("test")|| significado[x].equals("three")|| significado[x].equals("points")|| significado[x].equals("calculous")|| significado[x].equals("studies")|| significado[x].equals("the")){
+					if(significado[x].equals("house")|| significado[x].equals("dog")|| significado[x].equals("homework")|| significado[x].equals("woman")|| significado[x].equals("town")|| significado[x].equals("yes")){
 						cad += trac + " ";
 					} else{
 						cad += "*"+significado[x]+"*";
